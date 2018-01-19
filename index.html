@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 	<head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -12,17 +13,23 @@
 	</head>
 	<body>
 		<div class="container">
+		<a class='dropdown-button btn' href='#' data-activates='dropdown1'>浏览目录</a>
+		<ul id='dropdown1' class='dropdown-content'> 
+		<li><a href="#search-engine">搜索引擎</a></li> 
+		<li><a href="#opensource-repo">开源储存库</a></li>
+		<li><a href="#email">邮箱</a></li>
+		</ul>
 		<span class="blue-text text-lighten-1 text-centerqaq"><h4>灯塔</h4></span>
 		<div class="divider"></div>
 		<div class="card-panel z-depth-3">
-			<span class="card-title categ text-centerqaq">搜索引擎</span><br/>
+			<span name="search-engine" class="card-title categ text-centerqaq">搜索引擎</span><br/>
 			<div class="card-content">
 			<a href="https://google.com/ncr"><span class="btn grey lighten-3 black-text">Google</span></a></td>
 			<a href="https://bing.com"><span class="btn">Bing</span></a></td>
 		</div>
 		</div>
 		<div class="card-panel z-depth-3">
-			<span class="card-title categ text-centerqaq">开源储存库</span><br/>
+			<span name="opensource-repo" class="card-title categ text-centerqaq">开源储存库</span><br/>
 			<div class="card-content">
 			<a href="https://github.com/"><span class="btn black white-text">Github</span></a></td>
 			<a href="https://gitlab.com/"><span class="btn orange darken-3 white-text">Gitlab</span></a></td>
@@ -30,7 +37,7 @@
 		</div>
 		</div>
 		<div class="card-panel z-depth-3">
-		<span class="card-title categ text-centerqaq">邮箱</span><br/>
+		<span name="email" class="card-title categ text-centerqaq">邮箱</span><br/>
 		<div class="card-content">
 		<a href="https://outlook.live.com/"><span class="btn blue darken-3 white-text">Outlook</span></a></td>
 		<a href="https://mail.qq.com/"><span class="btn blue darken-2 white-text">QQ邮箱</span></a></td>
